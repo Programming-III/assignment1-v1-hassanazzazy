@@ -2,13 +2,14 @@
 #define BIRD_H
 
 #include "Animal.h"
+#include <string>
+using namespace std;
+class Bird{
+    private:
+    float wingSpan;
 
-//define class bird here 
-
-
-
-
-
-
-
+    public:
+    Bird();
+    Bird(float ws);
+};
 #endif
