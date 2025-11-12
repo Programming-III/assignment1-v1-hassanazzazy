@@ -2,12 +2,15 @@
 #define MAMMAL_H
 
 #include "Animal.h"
+#include <string>
+using namespace std;
+class Mammal : public Animal{
+    private:
+    string furColor;
 
-//define mammal class here
-
-
-
-
-
-
+    public:
+    Mammal();
+    Mammal(string fC);
+    ~Mammal();
+};
 #endif
