@@ -2,15 +2,13 @@
 #define REPTILE_H
 
 #include "Animal.h"
-
-//define reptile class here
-
-
-
-
-
-
-
-
-
+#include <string>
+using namespace std;
+class Reptile{
+    private:
+    bool isVenomous;
+    public:
+    Reptile();
+    Reptile(bool a);
+};
 #endif
